@@ -10,15 +10,12 @@
 	
 	
 
-	<script type="text/javascript" src="../common/js/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript" src="../common/js/init.js"></script>
-	<script type="text/javascript" src="../common/js/menu.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/user_common/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/user_common/js/init.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/user_common/js/menu.js"></script>
 	
 	
 	<link rel="shortcut icon" href="favicon.ico">
 	
 	<title>project</title>
-	
-
-
 </head>

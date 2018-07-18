@@ -1,4 +1,4 @@
-<%@ page contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
+<%@ page contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <%@page import="java.util.Vector"%>
 <%
 	String id = (String)session.getAttribute("idKey");	
@@ -21,7 +21,7 @@
 		<div class="visual_wrap">
 			<div class="visual_txt01 c">Leathercafe Greetings</div>
 			<div class="visual_txt02 c">shopping Mall Open!</div>
-			<p class="visual_txt03 c">¾î¶² ÀÛÀº ¼ÒÇ°ÀÌ¶óµµ °í°´¿¡°Ô ÁÖ¹®À» ¹Þ°í ³ª¼­<br />ÇÑ »ç¶÷ÀÇ Á¦ÀÛÀÚ°¡ Ã³À½ºÎÅÍ ³¡±îÁö Ã¥ÀÓÁö°í Á¦ÀÛÇÏ°í ÀÖ½À´Ï´Ù.</p>
+			<p class="visual_txt03 c">ì–´ë–¤ ìž‘ì€ ì†Œí’ˆì´ë¼ë„ ê³ ê°ì—ê²Œ ì£¼ë¬¸ì„ ë°›ê³  ë‚˜ì„œ<br />í•œ ì‚¬ëžŒì˜ ì œìž‘ìžê°€ ì²˜ìŒë¶€í„° ëê¹Œì§€ ì±…ìž„ì§€ê³  ì œìž‘í•˜ê³  ìžˆìŠµë‹ˆë‹¤.</p>
 			<div class="visual_btn c"><a href="/project/sub/custom_made.jsp">CUSTOM MADE</a></div>
 		</div>
 	</div>
@@ -31,7 +31,7 @@
 		<div class="best_choice">
 			<div class="product_tit">
 				<div class="product_tit01 c">BEST CHOICE</div>
-				<div class="product_tit02 c">Leathercafe Greetings¿¡¼­ ÃßÃµÇÏ´Â º£½ºÆ® ¾ÆÀÌÅÛ</div>
+				<div class="product_tit02 c">Leathercafe Greetingsì—ì„œ ì¶”ì²œí•˜ëŠ” ë² ìŠ¤íŠ¸ ì•„ì´í…œ</div>
 			</div>
 				
 			<ul class="bc_product">
@@ -41,7 +41,7 @@
 							<img src="../images/products/01.jpg" />
 							<div>123</div>
 						</a>
-						<div class="bc_txt02 c">100¿ø</div>
+						<div class="bc_txt02 c">100ì›</div>
 					</li>
 							
 			</ul>
@@ -52,12 +52,12 @@
 		<div class="main_info_wrap">
 			<ul class="information">
 				<li class="info_01">
-					<div class="info_txt c">¼ÒÇ°Å¬·¡½º ±âº»¹Ý<br />ÃÑ 3È¸ (¿ù, ¼ö)</div>
-					<div class="c"><a href="/project/sub/class.jsp" class="info_btn">½ÅÃ»ÇÏ±â</a></div>
+					<div class="info_txt c">ì†Œí’ˆí´ëž˜ìŠ¤ ê¸°ë³¸ë°˜<br />ì´ 3íšŒ (ì›”, ìˆ˜)</div>
+					<div class="c"><a href="/project/sub/class.jsp" class="info_btn">ì‹ ì²­í•˜ê¸°</a></div>
 				</li>
 				<li class="info_02">
-					<div class="info_txt c">¿øÇÏ´Â µðÀÚÀÎÀÌ ÀÖÀ¸½Å°¡¿ä?<br /><span>Custom Made</span></div>
-					<div class="c"><a href="/project/sub/custom_made.jsp" class="info_btn">½ÅÃ»ÇÏ±â</a></div>
+					<div class="info_txt c">ì›í•˜ëŠ” ë””ìžì¸ì´ ìžˆìœ¼ì‹ ê°€ìš”?<br /><span>Custom Made</span></div>
+					<div class="c"><a href="/project/sub/custom_made.jsp" class="info_btn">ì‹ ì²­í•˜ê¸°</a></div>
 				</li>			
 			</ul>
 		</div>
@@ -69,7 +69,7 @@
 		<div class="new_pro_wrap">
 			<div class="product_tit">
 				<div class="product_tit01 c">NEW PRODUCT</div>
-				<div class="product_tit02 c">»õ·Î ¼±º¸ÀÌ´Â Leathercafe Greetings¿¡¼­¸¸ ¸¸³¯ ¼ö ÀÖ´Â Á¦Ç° </div>
+				<div class="product_tit02 c">ìƒˆë¡œ ì„ ë³´ì´ëŠ” Leathercafe Greetingsì—ì„œë§Œ ë§Œë‚  ìˆ˜ ìžˆëŠ” ì œí’ˆ </div>
 			</div>
 
 				<ul class="new_pro_tab">
@@ -101,7 +101,7 @@
 							<img src="../images/products/01.jpg" />
 							<div>123</div>
 						</a>
-						<div class="new_txt02 c">¿ø</div>
+						<div class="new_txt02 c">ì›</div>
 					</li>
 				</ul>
 			</div>
