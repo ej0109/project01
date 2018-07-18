@@ -12,7 +12,7 @@
 
 	
 	<!-- header -->
-	<%-- <%@ include file="../common/include/header.jsp" %> --%>
+	<%@ include file="../include/header.jsp" %>
 	
 
 	
@@ -80,7 +80,7 @@
 			 	</ul>
 
 			
-				<ul class="new_pro_tab">
+<!-- 				<ul class="new_pro_tab">
 					<li><a href="main.jsp?category=bag#loca" class="on">BAG</a></li>
 					<li><a href="main.jsp?category=bag#loca">BAG</a></li>
 					<li><a href="main.jsp?category=wallet#loca" class="on">WALLET</a></li>
@@ -89,7 +89,7 @@
 					<li><a href="main.jsp?category=leatherBracelets#loca">LEATHER BRACELETS</a></li>
 					<li><a href="main.jsp?category=etc#loca" class="on">ETC</a></li>
 					<li><a href="main.jsp?category=etc#loca">ETC</a></li>	
-			 	</ul>
+			 	</ul> -->
 			 	
 				
 			
@@ -111,7 +111,7 @@
 	
 	
 	<!-- footer -->
-	<%-- <%@ include file="../common/include/footer.jsp" %> --%>
+	<%@ include file="../include/footer.jsp" %>
 
 
 </body>
