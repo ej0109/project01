@@ -11,9 +11,34 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="com.basic.project">
+	<logger name="com.setting.spring">
 		<level value="info" />
 	</logger>
+	
+	<logger name="jdbc.sqlonly">
+		<level value="WARN"></level>
+	</logger>
+	<logger name="jdbc.sqltiming">
+		<level value="INFO"></level>
+	</logger>
+	<logger name="jdbc.audit">
+		<level value="WARN"></level>
+	</logger>
+	<logger name="jdbc.resultset">
+		<level value="WARN"></level>
+	</logger>
+	<logger name="jdbc.resultsettable">
+		<level value="INFO"></level>
+	</logger>
+	<logger name="jdbc.connection">
+		<level value="WARN"></level>
+	</logger>
+	<!--jdbc.sqlonly WARN
+		jdbc.sqltiming INFO
+		jdbc.audit WARN
+		jdbc.resultset WARN
+		jdbc.resultsettable INFO
+		jdbc.connection WARN  -->
 	
 	<!-- 3rdparty Loggers -->
 	<logger name="org.springframework.core">
@@ -34,7 +59,7 @@
 
 	<!-- Root Logger -->
 	<root>
-		<priority value="warn" />
+		<priority value="info" />
 		<appender-ref ref="console" />
 	</root>
 	
